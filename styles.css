@@ -9,7 +9,7 @@ body {
   text-align: center;
   font-family: 'Roboto', sans-serif;
   color: #222;
-  background: #f7f5f0;
+  background: #debba4;
 }
 /* Link Styles */
 
@@ -99,7 +99,10 @@ header .profile-image:hover {
   transition: all .5s;
 }
 .card:hover {
-  border-color: #ff99ff;
+  border-bottom: 5px solid #b56837;
+  -webkit-box-shadow: 0px 0px 34px 3px rgba(181,104,55,1);
+  -moz-box-shadow: 0px 0px 34px 3px rgba(181,104,55,1);
+  box-shadow: 0px 0px 34px 3px rgba(181,104,55,1);
 }
 
 ul.skills {
